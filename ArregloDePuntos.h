@@ -10,14 +10,12 @@ public:
     ArregloDePuntos(const int &o){    
         this-> size = size;
     }
-    void redimensionar(int n){
-        size = n;
-    }
-    void push_back(){
-        
-    }
-    ~ArregloDePuntos(){
-
-    }
+    void redimensionar(int n);
+    void push_back(const Punto &p);
+    void insert(const int posicion, const Punto &p);
+    void remove(const int pos);
+    int getSize();
+    void clear();
+    ~ArregloDePuntos();
 
 };

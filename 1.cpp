@@ -17,12 +17,12 @@ void Punto::setY(int y){
 
 int main()
 {
-    Punto punto1(3,4);
-    punto1.getX();
-    punto1.getY();
-    punto1.setX(6);
-    punto1.setY(9);
-    punto1.getX();
-    punto1.getY();
+    Punto punto(3,4);
+    punto.getX();
+    punto.getY();
+    punto.setX(6);
+    punto.setY(9);
+    punto.getX();
+    punto.getY();
     return 0;
 }
